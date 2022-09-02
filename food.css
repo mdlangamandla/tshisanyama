@@ -1,0 +1,141 @@
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.active{
+    color:inherit;
+}
+
+
+.white_text{
+    color: #fff;
+}
+
+.responsive{
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: 0% auto;
+    padding: 1%;
+    /* border: 1px solid red; */
+}
+
+/*header starts here*/
+
+header{
+    background-color: #ffaf40;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 6%;;
+    border-radius: 100%;
+}
+
+#logo img{
+    border-radius: 100%;
+}
+
+#menu{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+#menu li{
+    padding: 20px;
+    font-weight: 700;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: inherit;
+}
+
+/*header ends here*/
+
+/* section starts here */
+#explore_foods{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.breakfast, .lunch, .dinner{
+    border: 1px solid #ccc;
+    width: 310px;
+    height: 420px;
+    background-color: #ffaf40;
+    position: relative;
+}
+
+#food_boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3{
+    margin-top: 5px;
+    color: #fff;
+}
+
+.view_menu{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 1.5rem;
+    z-index: 1;
+    
+}
+
+.view_menu_container{
+    position: absolute;
+    border-radius: 2px 1px 2px 1px;
+    background-color: #aaa69d;
+    opacity:0.8;
+    width: 9.5em;
+    height: 2em;
+    top: 49.5%;
+    left: 28%;
+}
+
+.view_menu a:hover{
+    color: #ffaf40;
+}
+/* section ends here */
+
+
+/* footer starts here*/
+
+#social_icons{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: #ffaf40;
+}
+
+.footer_paragraph{
+    text-align: center;
+    font-size: 12px;
+    line-height: 2em;
+}
+
+/* footer ends here*/

@@ -1,0 +1,237 @@
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container{
+    width: 80%;
+    margin: 0% auto;
+    padding: 1%;
+}
+
+.active{
+    color:inherit;
+}
+
+
+.white_text{
+    color: #fff;
+}
+
+.bold_text{
+    font-weight: 700;
+}
+
+.responsive1{
+    width: 100%;
+}
+.responsive{
+    width: 225px;
+    height: 225px;
+}
+
+/*header starts here*/
+
+header{
+    background-color: #ffaf40;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 6%;;
+    border-radius: 100%;
+}
+
+#logo img{
+    border-radius: 100%;
+}
+
+#menu{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+#menu li{
+    padding: 20px;
+    font-weight: 700;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: inherit;
+}
+
+/*header ends here*/
+
+/* Search section starts here*/
+
+#food_search{
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(images/shisa-nyama.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20em;
+}
+
+h2{
+    line-height: 2em;
+}
+
+input[type=text] {
+    width: 20%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/icon.png');
+    background-position: 10px 8px; 
+    background-size: 15px;
+    background-repeat: no-repeat;
+    padding: 5px 20px 5px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 30%;
+  }
+
+  input[type='submit']{
+    padding: 7px 5px 5px 5px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    font-weight: 700;
+
+  }
+
+/*search section ends here*/
+
+/*food category starts here*/
+
+#food_category{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.breakfast, .lunch, .dinner{
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 280px;
+    background-color: #ffaf40;
+    position: relative;
+}
+
+#category_boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+#category_boxes a{
+    color: #fff;
+    font-size: 18px;
+}
+
+#category_boxes a:hover{
+    color: #ffaf40;
+}
+
+h3{
+    margin-top: 5px;
+    color: #fff;
+}
+
+.category_check{
+    position: absolute;
+    top: 90%;
+    left: 15%;
+}
+
+
+/*food category ends here*/
+
+
+/*food special starts here*/
+
+#food_special{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.food_special1, .food_special2, .food_special3, .food_special4{
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 280px;
+    background-color: #ffaf40;
+    position: relative;
+}
+
+.special_order{
+    position: absolute;
+    top:90%;
+    left: 30%;
+}
+
+
+#food_special_boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+#food_special_boxes a{
+    color: white;
+    font-size: 18px;
+}
+
+#food_special_boxes a:hover{
+    color: #ffaf40;
+}
+
+#food_special_boxes h3{
+    color: #fff;
+}
+
+/*food specials ends here*/
+
+
+/* footer starts here*/
+
+#social_icons{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: #ffaf40;
+}
+
+.footer_paragraph{
+    text-align: center;
+    font-size: 12px;
+    line-height: 2em;
+}
+
+/* footer starts here*/
